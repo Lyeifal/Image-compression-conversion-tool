@@ -166,7 +166,7 @@ class AppConfig:
         if getattr(sys, 'frozen', False):
             # 如果是打包后的可执行文件
             base_path = sys._MEIPASS
-            ffmpeg_path = os.path.join(base_path,'bin', 'ffmpeg', 'bin', 'ffmpeg.exe')    
+            ffmpeg_path = os.path.join(base_path,'..','bin', 'ffmpeg', 'bin', 'ffmpeg.exe')    
         else:
             # 如果是开发环境下的脚本文件
             base_path = os.path.dirname(os.path.abspath(__file__))

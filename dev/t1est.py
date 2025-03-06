@@ -20,7 +20,6 @@ command1 = [
                 '-crf', '32',  # 设置压缩质量
                 '-fps_mode', 'vfr',  # 保持原始帧率
                 '-an',  # 移除音频
-                '-map',
 
                 output_path  # 输出文件
             ]
