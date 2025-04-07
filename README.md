@@ -1,4 +1,6 @@
-这是一个图片转换工具，使用python pillow + ffmpeg开发
+这是一个图片压缩转换工具，使用python pillow + ffmpeg来工作 
+
+ffmpeg敲命令行压缩真的好麻烦，于是就搞了个UI来批量压缩图片
 
 支持将多种格式图片以`webp`或`avif`格式输出
 
